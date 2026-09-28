@@ -1,0 +1,52 @@
+body {
+    background: blue;
+    font-family: Arial;
+    padding: 15px;
+}
+
+.page {
+    background: white;
+    padding: 30px;
+    min-height: 80vh;
+}
+
+.logo {
+    color: orange;
+}
+
+h1 {
+    font-size: 45px;
+    color: black;
+    margin: 50px 0;
+}
+
+h1 span {
+    color: #44488d;
+}
+
+.box {
+    display: flex;
+    gap: 60px;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+
+.item img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.item p {
+    font-size: 13px;
+    color: #555;
+}
+
+small {
+    float: right;
+    margin-top: 110px;
+}
